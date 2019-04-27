@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+#topo {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo {
+    padding: 10px;
+}
+
+#logo h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+#logo span {
+    color: #ffffff;
+}
+
+#menu {
+    padding: 10px;
+}
+
+#menu a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+#menu a:hover {
+    background: #ffffff;
+    color: #f7b600;
+}
