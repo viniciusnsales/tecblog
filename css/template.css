@@ -6,7 +6,10 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
+    background: #e0e0e0;
 }
+
+/****Topo****/
 
 #topo {
     background: #f7b600;
@@ -41,3 +44,29 @@ body {
     background: #ffffff;
     color: #f7b600;
 }
+
+/****Conteudo****/
+
+#principal {
+    width: 920px;
+    margin: 10px auto;
+}
+
+#conteudo_esquerda {
+    float: left;
+    width: 630px;
+}
+
+.postagens {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#conteudo_direita {
+    float: right;
+    width: 260px;
+    background: blue;
+}
+
+
+
