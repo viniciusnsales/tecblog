@@ -91,8 +91,51 @@ body {
 #conteudo_direita {
     float: right;
     width: 260px;
-    background: blue;
 }
+
+.postagens_direita {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagens_direita h2 {
+    background: #cccccc;
+    color: #4e4e4e;
+    padding: 5px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.postagens_direita p {
+    margin-bottom: 10px;
+}
+
+.postagens_direita a {
+    color: #f7b600;
+    text-decoration: none;
+    display: block;
+}
+
+.postagens_direita a:hover {
+    text-decoration: underline;
+}
+
+.postagens_direita hr {
+    margin: 10px 0px;
+}
+
+/****Rodapé****/
+
+#rodape {
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background-color: #acacac;
+}
+
+
+
 
 
 
