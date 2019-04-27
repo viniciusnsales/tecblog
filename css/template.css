@@ -49,7 +49,7 @@ body {
 
 #principal {
     width: 920px;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 #conteudo_esquerda {
@@ -57,10 +57,36 @@ body {
     width: 630px;
 }
 
-.postagens {
+.postagens_esquerda {
     background-color: #ffffff;
     padding: 20px;
+    margin-bottom: 20px;
 }
+
+.postagens_esquerda h2 {
+    color: #f7b600;
+}
+
+.postagens_esquerda h4 {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.postagens_esquerda p {
+    margin: 10px 0px;
+}
+
+.postagens_esquerda a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.postagens_esquerda a:hover {
+    text-decoration: underline;
+}
+
+
 
 #conteudo_direita {
     float: right;
